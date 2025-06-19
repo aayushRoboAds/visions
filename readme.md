@@ -82,8 +82,13 @@
 
 This setup provides vision capabilities to your avatar, enabling it to detect faces and respond
 
-## Mechanism
-Mic off after no human detection for 5 seconds
-Human deteced - mic on - human Unknown? - welcome 
-Human detected -mic on - known ? - No action
-Human Not detected - mic off - recognition off
+## Mic and Human Detection Logic
+
+- **Mic off** after no human detection for 5 seconds.
+- **Human detected**:
+  - **Mic on**
+  - If human is **unknown**: Welcome the human.
+  - If human is **known**: No action.
+- **Human not detected**:
+  - **Mic off**
+  -
