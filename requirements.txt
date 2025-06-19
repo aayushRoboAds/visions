@@ -1,0 +1,8 @@
+deepface
+flask
+flask_cors
+streamlit
+opencv-python
+requests
+io
+pycaw
